@@ -1,0 +1,56 @@
+/* font-family: 'Lobster', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  background-color: #fafafa;
+}
+
+.loginWrap {
+  position: relative;
+  width: max-content;
+  height: 56vh;
+  margin: 22vh auto;
+  background-color: #fff;
+  border: 1px solid #bcbcbc;
+  text-align: center;
+}
+
+h1 {
+  margin: 6rem 10rem;
+  font-size: 5rem;
+}
+
+.loginWrap input {
+  width: 80%;
+  height: 4rem;
+  margin: 0 auto 1rem;
+  padding: 0rem 0.8rem;
+  color: #bcbcbc;
+  background-color: #fafafa;
+  border: 1px solid #bcbcbc;
+  border-radius: 3px;
+  line-height: 4rem;
+}
+
+.logBtn {
+  width: 80%;
+  height: 4rem;
+  margin-top: 0.8rem;
+  color: #fff;
+  background-color: #67b6fa;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.6rem;
+  line-height: 4rem;
+}
+
+.pwSearch {
+  position: absolute;
+  bottom: 2.5rem;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.pwSearch a {
+  color: #3b628a;
+}
